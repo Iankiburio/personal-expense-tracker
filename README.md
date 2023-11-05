@@ -1,7 +1,7 @@
 ## Personal Expense Tracker
 
 ### Introduction
-The Expense Tracker is a Python program that allows users to track their expenses. It utilizes the Peewee library for database management and provides a command-line interface for users to interact with the application. The program allows users to add users and categories, add expenses, view all expenses, get the total expenses, modify category and expense data for a user, and delete users and their associated data.
+The Expense Tracker is a Python program that allows users to track their expenses. It utilizes the Peewee library for database management and provides a command-line interface for users to interact with the application. The program allows users to add usernames and categories, add expenses, view all expenses, get the total expenses, modify category and expense data for a user, and delete users and their associated data.
 
 ### Dependencies
 In order to run the Expense Tracker code, you will need to install the following dependencies:
@@ -48,7 +48,7 @@ To run the Expense Tracker, follow the steps below:
 7. **Exit**: This option terminates the program and returns you to the command prompt.
 
 ### Notes
-- The Expense Tracker enables the creation of unique usernames and category names. Duplicates will not be allowed.
+- The Expense Tracker enables the creation of unique usernames and category names.
 - The program handles cases where usernames, categories, or expenses do not exist, providing informative error messages.
 - The program displays appropriate messages when no expenses or users are found in the database.
 - The expenses are ordered by their ID, resulting in a chronological order based on when they were added.
