@@ -7,7 +7,11 @@ The Expense Tracker is a Python program that allows users to track their expense
 In order to run the Expense Tracker code, you will need to install the following dependencies:
 - Python (version >= 3.6)
 - Pipenv (`pipenv install`)
-- Peewee (`pip install peewee`) run pipenv shell then pip install peewee
+- Peewee. Run the following command to activate the virtual environment:
+   ```
+   pipenv shell
+   ```
+ then (`pip install peewee`)
 
 ### Database Setup
 The Expense Tracker uses SQLite database to store user, category, and expense information. The database file `expenses.db` will be created automatically when you run the program for the first time.
